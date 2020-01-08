@@ -1,15 +1,16 @@
+#Follow the instructions to run the multi machine app using Ansible
 
-Follow this instructions to run the Multi_Vagrant Ansible app.
-1. Download first all the files from this github repository inside a folder named as you want.
-2. Open Gitbash (run as Administrator) and move to yopur folder using the proper commands.
-3. Spin vagrant up typing "vagrant up" and wait to set everything up.
-4. You should get a message that says the app is running.
+##1. Download all the files from this github repo
+##2. Run GitBash as administrator and cd to the folder with the code
+##3. Run "vagrant up" to spin the machine up
+##4. You will get a message saying the app is running
 
-to access the app page use the URL "/development.local"
-to access the posts for the app use the url "/development.local/posts"
+###You can access the app on your browser using the "development.local" URL
+###You can access the posts page using the "development.local/posts" URL
 
-To stop the app once is running:
-1. Press Ctrl+C
-2. Type "vagrant ssh app" to enter into the virtual machine
-3. Type "kill -9 -1" to kill the app process and go out of the virtual machine
-4. Type "vagrant destroy -f" to remove the virtual machine
+##To stop the app follow these commands
+
+##1. ctrl+c
+##2. vagrant ssh app
+##3. kill -9 -1
+##4. vagrant destroy -f
